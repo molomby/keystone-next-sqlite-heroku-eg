@@ -2,6 +2,8 @@
 
 KeystoneJS 6 example project on SQLite with "Deploy to Heroku" button.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/ks6-eg-sqlite-heroku)
+
 Taken almost entirely from the [`next-lite` example project](https://github.com/keystonejs/keystone/tree/master/examples/next-lite).
 
 ⚠️ **This is a demo** ⚠️
