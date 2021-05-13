@@ -47,14 +47,14 @@ App code is a mix of the Keystone Next
 [auth](https://github.com/keystonejs/keystone/tree/master/examples/auth) example projects.
 It demos a number of Keystone features, including:
 
-* Some lists to play around with
-* Password based authentication
-* Stateless sessions
-* Initial user creation workflow
-* New Admin UI
-* A generated GraphQL endpoint (`/api/graphql`), inc. GraphiQL (when `NODE_ENV !== 'production'`)
-* Access control
-* Automatic migrations (via. [Prisma Migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate))
+- Some lists to play around with
+- Password based authentication
+- Stateless sessions
+- Initial user creation workflow
+- New Admin UI
+- A generated GraphQL endpoint (`/api/graphql`), inc. GraphiQL (when `NODE_ENV !== 'production'`)
+- Access control
+- Automatic migrations (via. [Prisma Migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate))
 
 ## KeystoneJS
 
@@ -67,4 +67,3 @@ If you want to know more
 checkout the (preview) [Keystone Next docs](https://next.keystonejs.com),
 fork us on [GitHub](https://github.com/keystonejs/keystone)
 or join the [KeystoneJS Slack](https://keystonejs.slack.com).
-

@@ -34,7 +34,8 @@ export const lists = createSchema({
       email: text({ isRequired: true, isUnique: true }),
       password: password({
         access: {
-          update: ({ session, item }) => session && (session.data.isAdmin || session.itemId === item.id),
+          update: ({ session, item }) =>
+            session && (session.data.isAdmin || session.itemId === item.id),
         },
         ui: {
           itemView: {

@@ -22,9 +22,8 @@ export default withAuth(
     server: { port: PORT },
     lists,
     ui: {},
-	session: withItemData(
-      statelessSessions({ maxAge: SESSION_MAX_AGE, secret: SESSION_SECRET }),
-      { Person: 'name isAdmin' }
-    ),
+    session: withItemData(statelessSessions({ maxAge: SESSION_MAX_AGE, secret: SESSION_SECRET }), {
+      Person: 'name isAdmin',
+    }),
   })
 );
