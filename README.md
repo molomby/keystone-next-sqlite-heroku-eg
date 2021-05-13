@@ -40,6 +40,9 @@ Data _will not be persisted_ for more than a few hours due to the (intentional) 
 
 However, this codebase _does_ form a starting point creating and deploying a basic Keystone app or just playing around.
 
+**For something more serious, checkout the equivilant example project running Postgres: [`keystone-next-pgsql-heroku-eg`](https://github.com/molomby/keystone-next-pgsql-heroku-eg).**
+It can also be deployed to Heroku for free.
+
 ## App Features
 
 App code is a mix of the Keystone Next
