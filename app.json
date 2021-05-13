@@ -3,7 +3,7 @@
   "description": "A barebones Keystone Next example project on SQLite",
   "repository": "https://github.com/molomby/keystone-next-sqlite-heroku-eg",
   "website": "https://next.keystonejs.com/",
-  "logo": "https://github.com/molomby/keystone-next-sqlite-heroku-eg/raw/master/assets/keystone-next-logo.png",
+  "logo": "https://raw.githubusercontent.com/molomby/keystone-next-sqlite-heroku-eg/main/assets/keystone-next-logo.png",
   "keywords": ["keystone next", "keystonejs", "node", "graphql", "cms", "sqlite"],
   "success_url": "/init",
   "env": {
