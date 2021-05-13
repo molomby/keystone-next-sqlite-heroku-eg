@@ -1,7 +1,7 @@
 # Keystone Next: SQLite Example for Heroku
 
 Keystone Next example project on SQLite.
-You can deploy it to Heroku with the button below, then navigate to the app to create an initial user and open the Keystone admin UI.
+You can deploy it to Heroku (for free!) using the button below, then navigate to the app to create an initial user and open the Keystone admin UI.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-sqlite-heroku-eg)
 
