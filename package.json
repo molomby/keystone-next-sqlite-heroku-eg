@@ -1,9 +1,9 @@
 {
-  "name": "ks6-eg-sqlite-heroku",
+  "name": "keystone-next-sqlite-heroku-eg",
   "version": "1.0.0",
   "description": "KeystoneJS 6 example project on SQLite with \"Deploy to Heroku\" button",
   "main": "index.js",
-  "repository": "git@github.com:molomby/ks6-eg-sqlite-heroku.git",
+  "repository": "git@github.com:molomby/keystone-next-sqlite-heroku-eg.git",
   "author": "John Molomby <john@thinkmill.com.au>",
   "license": "MIT",
   "private": false,

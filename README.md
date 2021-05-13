@@ -3,7 +3,7 @@
 Keystone Next example project on SQLite.
 You can deploy it to Heroku with the button below, then navigate to the app to create an initial user and open the Keystone admin UI.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/ks6-eg-sqlite-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-sqlite-heroku-eg)
 
 ## ⚠️ This is a Toy ⚠️
 
