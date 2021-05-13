@@ -5,6 +5,22 @@ You can deploy it to Heroku (for free!) using the button below, then navigate to
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-sqlite-heroku-eg)
 
+You can also clone this repo and run it locally:
+
+```sh
+# Get the repo
+git clone https://github.com/molomby/keystone-next-sqlite-heroku-eg
+cd keystone-next-sqlite-heroku-eg
+
+# Install packages
+yarn
+
+# Start the app
+yarn dev
+```
+
+Then point your browser to [localhost:3000](http://localhost:3000).
+
 ## ⚠️ This is a Toy ⚠️
 
 This app is an example/sandbox only.
@@ -29,15 +45,16 @@ However, this codebase _does_ form a starting point creating and deploying a bas
 App code is a mix of the Keystone Next
 [todo](https://github.com/keystonejs/keystone/tree/master/examples/todo) and
 [auth](https://github.com/keystonejs/keystone/tree/master/examples/auth) example projects.
-It includes:
+It demos a number of Keystone features, including:
 
+* Some lists to play around with
 * Password based authentication
 * Stateless sessions
-* The "first user" experience – ie. hit Keystone when the DB is empty and it'll help you create a user
-* The new Admin UI
-* A generated GraphQL endpoint (inc. GraphiQL when `NODE_ENV !== 'production'`) at `/api/graphql`
-* Some lists to play around with
+* Initial user creation workflow
+* New Admin UI
+* A generated GraphQL endpoint (`/api/graphql`), inc. GraphiQL (when `NODE_ENV !== 'production'`)
 * Access control
+* Automatic migrations (via. [Prisma Migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate))
 
 ## KeystoneJS
 
@@ -50,3 +67,4 @@ If you want to know more
 checkout the (preview) [Keystone Next docs](https://next.keystonejs.com),
 fork us on [GitHub](https://github.com/keystonejs/keystone)
 or join the [KeystoneJS Slack](https://keystonejs.slack.com).
+
