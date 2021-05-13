@@ -1,0 +1,31 @@
+{
+  "name": "ks6-eg-sqlite-heroku",
+  "version": "1.0.0",
+  "description": "KeystoneJS 6 example project on SQLite with \"Deploy to Heroku\" button",
+  "main": "index.js",
+  "repository": "git@github.com:molomby/ks6-eg-sqlite-heroku.git",
+  "author": "John Molomby <john@thinkmill.com.au>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": "^12.22.1"
+  },
+  "scripts": {
+    "dev": "keystone-next dev",
+    "start": "keystone-next start",
+    "build": "keystone-next build"
+  },
+  "dependencies": {
+    "@keystone-next/admin-ui": "^14.1.2",
+    "@keystone-next/auth": "^23.0.1",
+    "@keystone-next/fields": "^8.2.0",
+    "@keystone-next/keystone": "^17.1.1",
+    "dotenv": "^9.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "resolutions": {
+    "@graphql-tools/utils": "7.9.0"
+  }
+}
